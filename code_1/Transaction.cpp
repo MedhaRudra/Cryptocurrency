@@ -10,15 +10,15 @@ Transaction::Transaction(string _sender, string _receiver, int _amount) {
     amount = _amount;
 }
 
-string Transaction::getSender() {
+string Transaction::getSender() const{
     return sender;
 }
 
-string Transaction::getReceiver() {
+string Transaction::getReceiver() const{
     return receiver;
 }
 
-int Transaction::getAmount() {
+int Transaction::getAmount() const{
     return amount;
 }
 

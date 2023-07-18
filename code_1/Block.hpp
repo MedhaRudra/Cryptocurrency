@@ -19,5 +19,6 @@ public:
     string calculateHash();
     void mineBlock(unsigned int nDifficulty);
     string toString();
+    friend class Blockchain;
 };
 

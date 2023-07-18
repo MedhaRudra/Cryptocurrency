@@ -11,9 +11,9 @@ private:
 public:
     Transaction(string _sender, string _receiver, int amount);
 
-    string getSender();
-    string getReceiver();
-    int getAmount();
+    string getSender() const;
+    string getReceiver() const;
+    int getAmount() const;
 
     string toString();
 };
